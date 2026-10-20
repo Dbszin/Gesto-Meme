@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais e configuracoes locais
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Dataset local de fotos capturadas pela webcam
+/dataset/
+
+# Artefatos gerados pelo treinamento (train.py)
+/modelo_gestos.h5
+/classes.json
+
+# Imagens originais duplicadas em referencias/
+/WhatsApp Image *.jpeg
+
+# Cache e saidas de ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Configuracoes de editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
